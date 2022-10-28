@@ -1,0 +1,18 @@
+package poo;
+
+public interface basedevehiculo {
+	String matricula;
+    String color;
+    String precio;
+    String klm;
+    String marca;
+
+    public basedevehiculo (String matricula, String color, String precio, String klm, String marca) {
+    	this.nombre = nombre;
+		this.traje = traje;
+		this.alias = alias;
+		this.raza = raza;
+		this.lugarOrigen = lugarOrigen;
+    
+    }
+}
